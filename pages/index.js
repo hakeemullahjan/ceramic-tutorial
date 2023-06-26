@@ -89,7 +89,7 @@ function RecordSetter() {
     });
   };
 
-  const [name, setName] = useState("");
+  const [name, setName] = useState("-");
 
   return (
     <div className={styles.content}>
